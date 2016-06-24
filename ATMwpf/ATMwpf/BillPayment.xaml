@@ -1,0 +1,29 @@
+﻿<Window x:Class="ATMwpf.BillPayment"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ATMwpf"
+        mc:Ignorable="d"
+        Title="BillPayment" Height="300" Width="300">
+    <Grid>
+        <GroupBox x:Name="Select_account" Header="" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Height="105" Width="272"/>
+        <Label x:Name="Amount1" Content="Amount" HorizontalAlignment="Left" Margin="38,130,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.079,0.537" Width="74"/>
+        <Button x:Name="OK" Content="OK" HorizontalAlignment="Left" Margin="64,217,0,0" VerticalAlignment="Top" Width="75" Click="OK_Click"/>
+        <Button x:Name="Cancel" Content="Cancel" Margin="0,217,66,0" VerticalAlignment="Top" Width="75" HorizontalAlignment="Right" Click="Cancel_Click"/>
+        <Label x:Name="PIN" Content="PIN" HorizontalAlignment="Left" Margin="38,167,0,0" VerticalAlignment="Top" Width="49"/>
+        <PasswordBox x:Name="passwordBox" HorizontalAlignment="Left" Margin="115,170,0,0" VerticalAlignment="Top" Width="121" Height="23"/>
+        <TextBox x:Name="AmountTextBox" HorizontalAlignment="Left" Height="23" Margin="115,134,0,0" VerticalAlignment="Top" Width="120" />
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="29,37,0,0" TextWrapping="Wrap" Text="Bill payments can only be made from checking account. A service charge of 1.25 will be applied.   " VerticalAlignment="Top" Width="239" RenderTransformOrigin="0.5,0.5" TextAlignment="Center">
+            <TextBlock.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleY="0.337"/>
+                    <RotateTransform/>
+                    <TranslateTransform Y="0.414"/>
+                </TransformGroup>
+            </TextBlock.RenderTransform>
+        </TextBlock>
+
+    </Grid>
+</Window>

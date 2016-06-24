@@ -1,0 +1,29 @@
+﻿<Window x:Class="ATMwpf.SupervisorForm"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ATMwpf"
+        mc:Ignorable="d"
+        Title="ATM Administrator Menu - Caju Bank" Height="422.162" Width="778.628">
+    <Grid Margin="0,0,2,262">
+        <Menu x:Name="menu" Height="38" VerticalAlignment="Top">
+            <MenuItem Header="File" Click="File_Click" Name="File" >
+                <MenuItem Header="Exit" Name="Exit"/>
+                <MenuItem Header="Close ATM" Name="CloseATM"/>
+            </MenuItem>
+            <MenuItem Header="Money" Click="Money_Click" Name="Money" >
+                <MenuItem Header="Fill Up" Name="FillUp"/>
+                <MenuItem Header="Pay Interests" Name="PayInterests"/>
+            </MenuItem>
+            <MenuItem Header="Reports" Click="Reports_Click" Name="Reports" >
+                <MenuItem Header="Transactions by date" Name="TransactionsByDate"/>
+                <MenuItem Header="Transactions by Account Number" Name="TransactionsByAccount"/>
+            </MenuItem>
+            <MenuItem Header="Help" Click="Help_Click" Name="Help" >
+                <MenuItem Header="Technical Support" Name="Support"/>
+                <MenuItem Header="About ATM Caju Bank" Name="About"/>
+            </MenuItem>
+        </Menu>
+    </Grid>
+</Window>

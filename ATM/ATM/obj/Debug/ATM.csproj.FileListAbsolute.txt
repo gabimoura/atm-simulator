@@ -1,0 +1,14 @@
+E:\ATM\ATM\bin\Debug\ATM.dll
+E:\ATM\ATM\bin\Debug\ATM.pdb
+E:\ATM\ATM\obj\Debug\ATM.csprojResolveAssemblyReference.cache
+E:\ATM\ATM\obj\Debug\ATM.dll
+E:\ATM\ATM\obj\Debug\ATM.pdb
+D:\CDI\CDI\Integration 1\ATM\ATM\bin\Debug\ATM.dll
+D:\CDI\CDI\Integration 1\ATM\ATM\bin\Debug\ATM.pdb
+D:\CDI\CDI\Integration 1\ATM\ATM\obj\Debug\ATM.dll
+D:\CDI\CDI\Integration 1\ATM\ATM\obj\Debug\ATM.pdb
+E:\CDI\CDI\Integration 1\ATM\ATM\bin\Debug\ATM.dll
+E:\CDI\CDI\Integration 1\ATM\ATM\bin\Debug\ATM.pdb
+E:\CDI\CDI\Integration 1\ATM\ATM\obj\Debug\ATM.dll
+E:\CDI\CDI\Integration 1\ATM\ATM\obj\Debug\ATM.pdb
+E:\CDI\CDI\Integration 1\ATM\ATM\obj\Debug\ATM.csprojResolveAssemblyReference.cache
